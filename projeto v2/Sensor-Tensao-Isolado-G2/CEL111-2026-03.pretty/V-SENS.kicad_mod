@@ -1,0 +1,485 @@
+(footprint "V-SENS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5df2c92c-562f-421c-86e4-ede9fb677f89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "V-SENS"
+		(at 0 17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f44f83b-db3e-47aa-a5b9-ff12c4482266")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c1d2c4c-3ce7-4fe8-8deb-8ff52ea799e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Bloco V-SENS: placa do G2, sensor de tensão isolado com o AMC3330, vista de cima. Ilhas 1 a 4 no J2 (VIN+), 5 a 8 no J3 (VIN-), 9 a 12 no J1 (AMC_OUT, +5V, GND, GND)."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7357cf64-b378-4bfd-babd-16c6cd67b837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -26 0)
+		(end 26 36.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5525e8b2-df0a-41d6-8cb5-17f1ef1cea46")
+	)
+	(fp_text user "VIN+"
+		(at -18.31 5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "504d9856-a3e4-47cb-97ae-f3cd4da95688")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "VIN-"
+		(at -18.23 32 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd58283d-a7ce-4e39-ab8d-baa95337bf13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "AMC"
+		(at 13.5 10.46 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b2beb2d8-1bac-4fdf-836b-cb0923270f37")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "+5V"
+		(at 13.5 13 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "366c35bd-13d6-4901-adb2-e66c989cd373")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 19.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5501a4fd-016d-4df6-a7bd-81e424c4590b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "0a0bb195-4134-4d0d-81d1-7223daf87477")
+		(pts
+			(xy 26 0) (xy 26 10.46)
+		)
+		(height 3)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10.46"
+			(at 27.85 5.23 90)
+			(layer "Dwgs.User")
+			(uuid "0a0bb195-4134-4d0d-81d1-7223daf87477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "2e24aa2f-6e81-420b-9bdd-b99fc3fcb8a4")
+		(pts
+			(xy 15.5 0) (xy 26 0)
+		)
+		(height -3)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "10.5"
+			(at 20.75 -4.15 0)
+			(layer "Dwgs.User")
+			(uuid "2e24aa2f-6e81-420b-9bdd-b99fc3fcb8a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "67de7aa5-eee6-468e-9d3d-1c70cde25a6f")
+		(pts
+			(xy -26 36.5) (xy -22.04 36.5)
+		)
+		(height 3)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3.96"
+			(at -24.02 37.75 0)
+			(layer "Dwgs.User")
+			(uuid "67de7aa5-eee6-468e-9d3d-1c70cde25a6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f00596f6-7fed-488d-8c64-53e67fb70315")
+		(pts
+			(xy -26 0) (xy -22.12 0)
+		)
+		(height -3)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3.88"
+			(at -24.06 -4.75 0)
+			(layer "Dwgs.User")
+			(uuid "f00596f6-7fed-488d-8c64-53e67fb70315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f1281960-e347-40ae-9c6d-980020304185")
+		(pts
+			(xy -26 34.5) (xy -26 36.5)
+		)
+		(height -3)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2"
+			(at -30.9 35.5 90)
+			(layer "Dwgs.User")
+			(uuid "f1281960-e347-40ae-9c6d-980020304185")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "f2a67773-0e53-4591-b29a-25d005cbcc3c")
+		(pts
+			(xy -26 0) (xy -26 2.5)
+		)
+		(height -3)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "2.5"
+			(at -30.9 1.25 90)
+			(layer "Dwgs.User")
+			(uuid "f2a67773-0e53-4591-b29a-25d005cbcc3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -22.12 2.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c94b5db2-d25b-4de6-ac81-0f54ee3d485b")
+	)
+	(pad "2" thru_hole oval
+		(at -19.58 2.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82acd6fb-3b84-44f8-8e47-2f9c411ea921")
+	)
+	(pad "3" thru_hole oval
+		(at -17.04 2.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9611e2dc-c8de-4662-8946-76b5e5d48312")
+	)
+	(pad "4" thru_hole oval
+		(at -14.5 2.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "abe24353-9312-45b7-a288-1c90dd955ec0")
+	)
+	(pad "5" thru_hole oval
+		(at -22.04 34.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d29fe701-9d94-4b8f-b9e5-7d192c81981f")
+	)
+	(pad "6" thru_hole oval
+		(at -19.5 34.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "05b5ccf0-4b38-4725-b903-26d946858078")
+	)
+	(pad "7" thru_hole oval
+		(at -16.96 34.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d62657b0-ec6a-46da-846a-db2d7dfc99c3")
+	)
+	(pad "8" thru_hole oval
+		(at -14.42 34.5)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45f783c1-58a4-4fb4-983f-48fd46292ec1")
+	)
+	(pad "9" thru_hole oval
+		(at 15.5 10.46 270)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cf6cea4-75cf-4f5a-9a59-b48fa9afbde4")
+	)
+	(pad "10" thru_hole oval
+		(at 15.5 13 270)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea2f75d7-672c-4b20-bbab-a1342b051cde")
+	)
+	(pad "11" thru_hole oval
+		(at 15.5 15.54 270)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5a7c9a5d-f013-4eb8-bd41-2ba32b611c40")
+	)
+	(pad "12" thru_hole oval
+		(at 15.5 18.08 270)
+		(size 1.6 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11d5bea7-ff48-4859-8d67-7556e93f5509")
+	)
+	(group ""
+		(uuid "334d4ddf-c5a6-4ab0-ae5a-ef8fd76f3be1")
+		(members "11d5bea7-ff48-4859-8d67-7556e93f5509" "5a7c9a5d-f013-4eb8-bd41-2ba32b611c40"
+			"9cf6cea4-75cf-4f5a-9a59-b48fa9afbde4" "ea2f75d7-672c-4b20-bbab-a1342b051cde"
+		)
+	)
+	(group ""
+		(uuid "4c2ed76c-be21-4396-9eba-61f5a784a4cd")
+		(members "05b5ccf0-4b38-4725-b903-26d946858078" "45f783c1-58a4-4fb4-983f-48fd46292ec1"
+			"d29fe701-9d94-4b8f-b9e5-7d192c81981f" "d62657b0-ec6a-46da-846a-db2d7dfc99c3"
+		)
+	)
+	(group ""
+		(uuid "b03213d3-b7ea-4d0e-8283-4b8d975a041f")
+		(members "82acd6fb-3b84-44f8-8e47-2f9c411ea921" "9611e2dc-c8de-4662-8946-76b5e5d48312"
+			"abe24353-9312-45b7-a288-1c90dd955ec0" "c94b5db2-d25b-4de6-ac81-0f54ee3d485b"
+		)
+	)
+	(embedded_fonts no)
+	(model "C:/Users/pedro/Documents/Trabalho/Graduação/CEL111 - Lab Prototipagem Eletrônica/Projetos Alunos/2026-03/projeto v2/Sensor-Tensao-Isolado-G2/Sensor-Tensao-Isolado.step"
+		(offset
+			(xyz -26 -36.5 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

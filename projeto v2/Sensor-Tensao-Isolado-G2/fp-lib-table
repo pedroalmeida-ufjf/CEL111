@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "CEL111-2026-03") (type "KiCad") (uri "${KIPRJMOD}/CEL111-2026-03.pretty") (options "") (descr "Footprint V-SENS, o bloco do G2 na placa-mãe"))
+)
